@@ -69,8 +69,7 @@
   },
   "typedocOptions": {
     "entryPoints": [
-      "../../temp/components/index.ts",
-      "../../temp/fragment/index.ts",
+      "../../src/components/index.js",
     ],
     "out": "./docs",
     "readme": "../../README.md",
@@ -79,13 +78,5 @@
     "excludePrivate": true,
     "excludeProtected": true,
     "excludeNotDocumented": true
-  },
-  "include": [
-    "../../temp/**/*"
-  ],
-  "exclude": [
-    "../../temp/**/*.test.ts",
-    "../../temp/**/*.spec.ts",
-    "../../temp/**/test/**/*"
-  ]
+  }
 }
